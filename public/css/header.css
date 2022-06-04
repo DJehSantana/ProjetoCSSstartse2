@@ -1,0 +1,37 @@
+/*Estilos do Header*/
+
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 980px;
+    height: 80px;
+    margin: auto;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{    
+    list-style: none;
+}
+
+header nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 24px;
+    transition: all 150ms linear 0s;
+}
+
+header nav ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+header .container img{
+    height: 30px;
+}
