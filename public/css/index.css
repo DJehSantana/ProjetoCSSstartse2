@@ -95,9 +95,50 @@ form [type="submit"]:hover {
     color: rgb(187, 185, 185);
 }
 
-.card {
+.card{
     display: flex;
     flex-direction: column;
     cursor: pointer;
     box-shadow: 5px 5px 15px -4px #0000;
+    transition: all 0.3s ease 0s;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+}
+
+.image {
+    width: 100%;
+    padding-top: 56.25%;
+    overflow: hidden;
+    position: relative;
+}
+
+.image img {
+    position: absolute;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    margin: 20px;
+}
+
+.title {
+    margin-bottom: 0;
+}
+
+/*estilos section form*/
+
+.contato{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+    border: 2px solid #0000;
+    margin: 100px auto;
+    max-width: 980px;
 }
