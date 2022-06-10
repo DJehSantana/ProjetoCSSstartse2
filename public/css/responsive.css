@@ -109,3 +109,27 @@
         top: 8px;
     }
 }
+
+/*media query do formulário */
+
+@media screen and (min-width: 992px) {
+    section .contact-form{
+        width: 70%;
+        border: 5px dashed #0080ed;
+        border-radius: 20px 5px;
+        padding: 25px;
+        margin: 25px auto;
+    }   
+    
+    section .contact-form select{
+        width: 50%;
+    }
+    
+    section .contact-form > div input[type=submit],
+    section .contact-form > div input[type=reset]{
+        width: auto;
+        padding: 10px;
+        margin-right: 15px;
+    }
+   
+}

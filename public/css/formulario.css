@@ -1,13 +1,17 @@
 /*estilos formulário desafio*/
 
 
-.contato{
+#form .contato{
     font-size: 1.1em;
     display: block;
     justify-content: center;    
     align-items: center;
     border: 2px solid #0000;
-    margin: 20px auto;    
+    margin: auto;    
+}
+
+.contact-form{
+    background-color: #A3BFD9;
 }
 
 .contact-form > div{
@@ -21,22 +25,54 @@
 }
 
 
-main .contact-form input,
-main .contact-form select,
-main .contact-form textarea{
+.contact-form input,
+.contact-form select,
+.contact-form textarea{
     width: 90%;
     font-size: 1.1em;
     padding: 5px 15px;
-    outline-color: #0080ed;
+    border: 2px solid #0080ed;
+    border-radius: 5px;   
 }
 
 
-main .contact-form textarea{
+.contact-form textarea{
     resize: none;
     margin-top: 15px;
 }
 
-main .contact-form > div:nth-child(4) span{
-    color: #0080ed;
-    font-size: 1.1em;
+/* Estilos específicos dos inputs*/
+
+.contact-form > div input[type=radio],
+.contact-form > div input[type=checkbox]{
+    width: 25px;  
+    margin: 10px auto;  
+}
+
+.contact-form > div input[type=checkbox]{
+    text-align: center;
+    margin-top: 0;
+}
+
+
+.contact-form > div input[type=submit],
+.contact-form > div input[type=reset]{
+    width: 40%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;       
+    font-size: 1.1em; 
+    font-weight: bold;      
+}
+
+.contact-form [type="submit"]:hover {
+    cursor: pointer;
+    border: 2px solid #000;
+}
+
+.contact-form [type="reset"]:hover {
+    cursor: pointer;
+    border: 2px solid #0080ed;
 }

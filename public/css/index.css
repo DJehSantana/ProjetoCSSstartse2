@@ -53,8 +53,9 @@ h3{
 }
 
 .sub-title{
+    padding: 0 20px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 /*estilos do formulário*/
@@ -81,6 +82,7 @@ form [type="submit"] {
 form [type="submit"]:hover {
     cursor: pointer;
 }
+
 
 /*estilos dos cards*/
 
