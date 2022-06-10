@@ -52,6 +52,11 @@ h3{
     margin: 10px, 0;
 }
 
+.sub-title{
+    text-align: center;
+    font-size: 1.5em;
+}
+
 /*estilos do formulário*/
 
 form{
@@ -130,15 +135,4 @@ form [type="submit"]:hover {
     margin-bottom: 0;
 }
 
-/*estilos section form*/
 
-.contato{
-    font-size: 100px;
-    display: flex;
-    justify-content: center;
-    height: 400px;
-    align-items: center;
-    border: 2px solid #0000;
-    margin: 100px auto;
-    max-width: 980px;
-}

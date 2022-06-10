@@ -1,0 +1,42 @@
+/*estilos formulário desafio*/
+
+
+.contato{
+    font-size: 1.1em;
+    display: block;
+    justify-content: center;    
+    align-items: center;
+    border: 2px solid #0000;
+    margin: 20px auto;    
+}
+
+.contact-form > div{
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.contact-form > div label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+main .contact-form input,
+main .contact-form select,
+main .contact-form textarea{
+    width: 90%;
+    font-size: 1.1em;
+    padding: 5px 15px;
+    outline-color: #0080ed;
+}
+
+
+main .contact-form textarea{
+    resize: none;
+    margin-top: 15px;
+}
+
+main .contact-form > div:nth-child(4) span{
+    color: #0080ed;
+    font-size: 1.1em;
+}

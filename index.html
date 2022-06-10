@@ -70,14 +70,14 @@
 
             <div class="card">
                 <figure class="image">
-                    <img src="public/image/unicornio.jpeg">        
+                    <img src="public/image/unicornio.jpeg">                     
                 </figure>
 
                 <div class="content-card">
                     <p class="title text--medium">
                     Com startups mais 'baratas', grandes empresas buscam aquisições
                     </p>
-                </div>                
+                </div>              
 
                 <div class="info">
                     <p class="text--medium">57 Min</p>
@@ -120,7 +120,60 @@
 
         <section id="form">
             <div class="contato">
-                <p>Desafio</p>
+               <h2 class="sub-title">Desafio</h2>
+
+               <form action="#" class="contact-form">
+                    <h2>Sua opnião é muito importante pra nós!</h2>
+                    <div>
+                        <label>Nome:</label> 
+                        <input type="text" name="nome" maxlength="70"/>                 
+                    </div>  
+                    
+                    <div>
+                        <label>E-mail:</label>
+                        <input type="text" name="email" maxlength="150"/>
+                    </div>
+
+                    <div>
+                        <label>Sexo:</label>
+                        <input type="radio" name="sexo"/> <span>Feminino</span>
+                        <input type="radio" name="sexo"/> <span>Masculino</span>
+                    </div>
+
+                    <div>
+                        <label>Qual o seu nível de conhecimento em programação?</label>
+                        <select name="nivel">
+                            <option>Iniciante</option>
+                            <option>Intermediário</option>
+                            <option>Profissional</option>
+                            <option>Nenhum</option>
+                            <option>Não saberia dizer</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label>Quais tecnologias você tem interesse em aprender?</label>
+                        <input type="checkbox" name="javascript" value="javascript"/> <p>JavaScript</p>
+                        <input type="checkbox" name="phyton" value="phyton"/> <p>Phyton</p>
+                        <input type="checkbox" name="kotlin" value="kotlin"/> <p>kotlin</p>
+                        <input type="checkbox" name="sql" value="sql"/> <p>SQL</p>
+                        <input type="checkbox" name="outra" value="outra"/> <p>Outras:</p>                        
+                    </div>
+
+                    <div>
+                        <textarea name="tecnologias" maxlength="300" placeholder="Tecnologias"></textarea>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="Aceite" value="Aceite"/>
+                        <span>Gostaria de receber novidades da Starte por Email.</span>                    
+                    </div>
+                    <div>
+                        <input type="submit" name="Enviar" value="Enviar"/>
+                        <input type="reset" name="Limpar" value="Limpar"/>
+                    </div>
+
+               </form>
             </div>
         </section>
 
