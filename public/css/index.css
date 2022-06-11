@@ -106,7 +106,7 @@ form [type="submit"]:hover {
     display: flex;
     flex-direction: column;
     cursor: pointer;
-    box-shadow: 5px 5px 15px -4px #0000;
+    box-shadow: 5px 5px 15px -4px black;
     transition: all 0.3s ease 0s;
 }
 
