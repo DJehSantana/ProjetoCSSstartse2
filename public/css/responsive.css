@@ -1,5 +1,5 @@
 /*media query*/
-
+/*
 @media (max-widht: 1000px) {
     main .container-main div{
         margin: auto;
@@ -30,7 +30,7 @@
         margin: 12px;
     } 
 }
-
+*/
 
 @media (min-height: 631px) {
     .container-menu{
