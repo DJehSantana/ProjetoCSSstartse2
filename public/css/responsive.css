@@ -28,7 +28,7 @@
 
     input {
         margin: 12px;
-    }
+    } 
 }
 
 
@@ -67,8 +67,7 @@
         cursor: pointer;
         position: relative;
         display: block;
-        height: 22px;
-        width: 30px;
+        width: 100%;
     }
 
     label span {
