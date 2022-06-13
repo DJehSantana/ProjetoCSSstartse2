@@ -1,7 +1,12 @@
 /*media query*/
 
 @media (max-widht: 991px) {
+    header .container{
+        width: 100%;
+    }
+
     main .container-main div{
+        width: 100%;
         margin: auto;
     }
 
