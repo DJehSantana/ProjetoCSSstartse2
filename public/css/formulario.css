@@ -1,6 +1,6 @@
 /*estilos formulário desafio*/
 
-#form .contato{
+#form .contato{    
     font-size: 1.1em;
     display: block;
     justify-content: center;    
@@ -9,6 +9,7 @@
 }
 
 .contact-form{
+    width: 100%;
     background-color: #A3BFD9;
 }
 
