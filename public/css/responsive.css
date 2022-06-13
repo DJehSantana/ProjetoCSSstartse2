@@ -1,5 +1,5 @@
 /*media query*/
-/*
+
 @media (max-widht: 1000px) {
     main .container-main div{
         margin: auto;
@@ -30,7 +30,7 @@
         margin: 12px;
     } 
 }
-*/
+
 
 @media (min-height: 631px) {
     .container-menu{
@@ -110,7 +110,7 @@
 }
 
 /*media query do formulário */
-
+/*
 @media screen and (min-width: 992px) {
     section .contact-form{
         width: 70%;
@@ -131,4 +131,4 @@
         margin-right: 15px;
     }
    
-}
+}*/
