@@ -137,4 +137,31 @@ form [type="submit"]:hover {
     margin-bottom: 0;
 }
 
+/*Estilos do Footer*/
 
+footer{
+    text-align: center;
+}
+
+.footer figure {
+    text-align: center;
+}
+
+.footer figure img{
+    width: 30%;
+}
+
+.footer span{
+    font-size: 1.3em;    
+    padding-bottom: 20px;
+}
+
+.footer span a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer span a:hover{
+    text-decoration: underline;
+    color: #0080ed;
+}
