@@ -1,6 +1,6 @@
 /*media query*/
 
-@media (max-widht: 991px) {
+@media (max-width: 991px) {
     header .container{
         width: 100%;
     }
