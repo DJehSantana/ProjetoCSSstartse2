@@ -2,9 +2,10 @@
 
 #form .contato{    
     font-size: 1.1em;
-    display: block;
+    text-align: justify;
+    display: flex;
     justify-content: center;    
-    align-items: center;
+    align-items: center; 
     margin: auto;
     margin-top: 50px; 
     padding-top: 30px;   
